@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/style.css">
+ <title>JS Timed Quiz</title>
+</head>
+<body>
+ <header>
+  <div class="header-elements">
+   <a href="./highscorelist.html" class="header-elements">Score rankings</a>
+   <h1>JavaScript Test</h1>
+   <!-- Timer text content and value will be accessed and defined from script.js -->
+   <div>timer</div>
+  </div>
+ </header>
+ <!-- Main section where dinamic content will be displayed depending on user input and selections -->
+<section class="introcontainer">
+ <div>
+  <p>This is a JavaScript quiz to test your knowledge.
+  
+  You have 60 seconds to answer as much question as you can.
+  For every incorrect answer you remaining time will be reduced by 5 seconds</p>
+ </div>
+ <button class="startbutton">Start</button>
+</section>
+
+<section class="quizcontainer">
+ <div class="intro">
+  <p class="question">Question</p>
+ </div>
+ <button id="answer1">answer1</button>
+ <button id="answer2">answer2</button>
+ <button id="answer3">answer3</button>
+ <button id="answer4">answer4</button>
+</section>
+
+
+
+ <script src="./js/script.js"></script>
+
+ <footer>
+  
+
+ </footer>
+</body>
+</html>
