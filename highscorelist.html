@@ -1,39 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+< !DOCTYPE html>
+ <html lang="en">
 
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="./css/reset.css">
- <link rel="stylesheet" href="./css/style.css">
- <title>Score Rankings</title>
-</head>
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Ranking</title>
 
-<body>
- <header>
-  <div class="header-elements">
-   <a href="./index.html" class="header-elements"> Go back</a>
-   <h1>Scores ranking</h1>
+  <link rel="stylesheet" href="./css/style.css" />
+ </head>
+
+ <body>
+  <div class="wrapper">
+   <h1>Highscore ranking list</h1>
+   <ol id="highscores"></ol>
+
+   <a href="index.html"><button>Go Back</button></a>
+   <button id="clear">Clear Highscores</button>
   </div>
- </header>
- <!-- Main section where dinamic content will be displayed depending on user input and selections -->
- <section class="introcontainer">
-  <div>
-   <p>Here are the top scorers:</p>
-  </div>
-  <ol>
-   <li>one</li>
-   <li>two</li>
-   <li>three</li>
-  </ol>
- </section>
 
- <script src="./js/script.js"></script>
+  <script src="./js/highscoreranking.js"></script>
+ </body>
 
- <footer>
-
-
- </footer>
-</body>
-
-</html>
+ </html>
