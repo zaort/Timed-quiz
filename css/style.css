@@ -35,13 +35,13 @@ body {
 }
 
 a {
-  color: #563d7c;
+  color: #ccc;
   text-decoration: none;
   transition: color 0.1s;
 }
 
 a:hover {
-  color: #8570a5;
+  color: #af9fc8;
 }
 
 button {
@@ -79,6 +79,7 @@ ol {
 li {
   padding: 5px;
   list-style: decimal inside none;
+  color: grey;
 }
 
 li:nth-child(odd) {
